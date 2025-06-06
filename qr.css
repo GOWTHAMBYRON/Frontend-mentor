@@ -1,48 +1,48 @@
-body{
-    background-color: rgba(173, 216, 230, 0.5);
-      width: 800px;
-      height: 600px;
-      margin: 0 auto;       
+.top{
+    width: 320px;
+    height: 460px;
+    border: solid 1px black;
+    background-color: whitesmoke;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    padding: 14px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.8);
+    }
 
-      
-}
-div{
-    width: 260px;
-    height: 420px;
-    background-color: white;
-    border-radius: 12px;
-    margin: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+body{
+    background-color: #FEDC56;
+    margin: auto;
+    margin-top: 30%;
+    align-items: center;
     
 }
-img{
-    width: 230px;
-    height: 240px;
-    border-radius: 8px;
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 2px;
+
+.bottom{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 12px;
 }
-h3{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    text-size-adjust: 12px;
-    width: 230px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 20px;
-     line-height: 20px;
+.icon{
+   border-radius: 20px;
 }
-p{
-    margin-bottom: 60px;
+button{
+    width: 80px;
+    height: 36px;
     align-items: center;
-    text-align: center;
-    font-size: 14px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    color: grey;
-    line-height: 18px;
+    padding: 2px;
+    background-color:#FEDC56;
+    border: 0cap;
+    border-radius: 6px;
+}
+.profile{
+   width: 32px;
+   height: 32px;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin: 8px 0;  /* add small consistent margin */
 }
