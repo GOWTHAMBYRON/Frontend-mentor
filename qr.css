@@ -1,48 +1,60 @@
-.top{
+body {
+    background-color: #141414;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.card {
+    background-color: #1F1F1F;
+    border-radius: 16px;
+    padding: 32px;
     width: 320px;
-    height: 460px;
-    border: solid 1px black;
-    background-color: whitesmoke;
-    flex-direction: column;
-    display: flex;
-    margin: auto;
-    padding: 14px;
-    border-radius: 20px;
-    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.8);
-    }
-
-body{
-    background-color: #FEDC56;
-    margin: auto;
-    margin-top: 30%;
-    align-items: center;
-    
+    text-align: center;
+    margin: 100px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
-.bottom{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   gap: 12px;
+.card img {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    margin-bottom: 16px;
 }
-.icon{
-   border-radius: 20px;
+
+.card h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
-button{
-    width: 80px;
-    height: 36px;
-    align-items: center;
-    padding: 2px;
-    background-color:#FEDC56;
-    border: 0cap;
-    border-radius: 6px;
+
+.card .location {
+    color: #C4F82A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
 }
-.profile{
-   width: 32px;
-   height: 32px;
+
+.card .subtitle {
+    color: #CCCCCC;
+    font-size: 14px;
+    margin-bottom: 24px;
 }
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
-    margin: 8px 0;  /* add small consistent margin */
+
+.button {
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 12px 0;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c3fc1a;
+    color: #141414;
 }
